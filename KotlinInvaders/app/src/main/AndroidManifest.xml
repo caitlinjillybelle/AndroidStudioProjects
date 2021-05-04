@@ -9,17 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinInvaders">
-        <activity
-            android:name=".KotlinInvadersActivity"
+        <activity android:name=".KotlinInvadersActivity"
             android:label="@string/title_activity_kotlin_invaders"
-            android:theme="@style/Theme.KotlinInvaders.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
